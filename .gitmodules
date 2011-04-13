@@ -1,0 +1,21 @@
+[submodule "bundle/vim-fugitive.git"]
+	path = bundle/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/snipmate.git"]
+	path = bundle/snipmate.git
+	url = https://github.com/msanders/snipmate.vim.git
+[submodule "bundle/nerdtree.git"]
+	path = bundle/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/nerdcommenter.git"]
+	path = bundle/nerdcommenter.git
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/vcscommand.git"]
+	path = bundle/vcscommand.git
+	url = git://repo.or.cz/vcscommand
+[submodule "bundle/javarun.git"]
+	path = bundle/javarun.git
+	url = https://github.com/vim-scripts/JavaRun.git
+[submodule "bundle/autoclose--alves.git"]
+	path = bundle/autoclose--alves.git
+	url = https://github.com/vim-scripts/AutoClose--Alves.git
