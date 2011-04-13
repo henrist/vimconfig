@@ -25,6 +25,8 @@ set wildmenu                   " turn on wild menu, try typing :h and press <Tab
 "set switchbuf=newtablusetab   " things that switch buffers, like quickfix will open new tabs, but reuse already open tabs
 set switchbuf=useopen,split    " things that switch buffers, like quickfix will open new windows, but reuse already open windows
 set nowrap                     " don't wrap text
+set number                     " show line numbers
+set t_Co=256                   " use 256-color terminal
 
 
 
