@@ -5,26 +5,28 @@ filetype plugin indent on
 
 
 let mapleader = ","
-set ruler		" show cursor line and column in the status line
-set showmatch		" show matching brackets
-set visualbell		" stop beeping on error
-set history=500		" number of remembered commands
-set backspace=2		" allow backspacing over everything in insert mode
-set mouse=a		" enable mouse in all editing modes
-set linebreak		" avoid breaking words when wrapping text (when using :set wrap)
-set fileencoding=utf-8	" use UTF-8
-set encoding=utf-8	" use UTF-8
-set sidescroll=1	" how fast we should jump the screen when scrolling sideways
-set switchbuf=usetab,split	" open file-links from the quickfix window in a existing or new tab
+set ruler                      " show cursor line and column in the status line
+set showmatch                  " show matching brackets
+set visualbell                 " stop beeping on error
+set history=500                " number of remembered commands
+set backspace=2                " allow backspacing over everything in insert mode
+set mouse=a                    " enable mouse in all editing modes
+set linebreak                  " avoid breaking words when wrapping text (when using :set wrap)
+set fileencoding=utf-8         " use UTF-8
+set encoding=utf-8             " use UTF-8
+set sidescroll=1               " how fast we should jump the screen when scrolling sideways
+set switchbuf=usetab,split     " open file-links from the quickfix window in a existing or new tab
 set tabstop=4
-set shiftwidth=4	" number of spaces used by >> << and cindent
+set shiftwidth=4               " number of spaces used by >> << and cindent
 set smarttab
 "set expandtab
-set laststatus=2	" show filename and cursor position at the bottom of the screen
-set wildmenu		" turn on wild menu, try typing :h and press <Tab>
-"set switchbuf=newtablusetab	" things that switch buffers, like quickfix will open new tabs, but reuse already open tabs
-set switchbuf=useopen,split	" things that switch buffers, like quickfix will open new windows, but reuse already open windows
-set nowrap		" don't wrap text
+set laststatus=2               " show filename and cursor position at the bottom of the screen
+set wildmenu                   " turn on wild menu, try typing :h and press <Tab>
+"set switchbuf=newtablusetab   " things that switch buffers, like quickfix will open new tabs, but reuse already open tabs
+set switchbuf=useopen,split    " things that switch buffers, like quickfix will open new windows, but reuse already open windows
+set nowrap                     " don't wrap text
+
+
 
 " Statusline in the line at the bottom of the screen, showing filename and other info
 set statusline=%#Identifier#%{winnr()}\ " window number
@@ -110,7 +112,6 @@ command! -complete=help -nargs=1 H tab help <args>
 if &term == "screen"
     set ttymouse=xterm2
 endif
-
 
 
 
